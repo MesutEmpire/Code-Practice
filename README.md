@@ -1,1 +1,1 @@
-The author is # Samuel Wainaina.
+The author is #Samuel Wainaina.
