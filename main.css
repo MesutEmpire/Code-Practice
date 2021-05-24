@@ -1,0 +1,55 @@
+img {
+  width: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+.username {
+  font-weight: bold;
+  font-size: 40px;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  color: rgb(102, 104, 19);
+  border-radius: 10px;
+  border-color: rgb(255, 252, 252);
+}
+.btn:hover {
+  color: #22628ad3;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -ms-transform: translate(5%, -50%);
+  transform: translate(5%, -50%);
+}
+.log {
+  position: absolute;
+  top: 0%;
+  left: 95%;
+  -ms-transform: translate(0%, 95%);
+  transform: translate(0%, 95%);
+  background-color: rgb(159, 159, 170);
+}
+body {
+  background-image: url("backgr.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.brk {
+  font-weight: bold;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+  font-size: 24px;
+}
+
+.tbl {
+  left: 50%;
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
