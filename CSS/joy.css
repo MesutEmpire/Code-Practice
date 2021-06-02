@@ -1,0 +1,36 @@
+.bdy {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.name {
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -ms-transform: translate(5%, -50%);
+  transform: translate(5%, -50%);
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.btn:hover {
+  color: #22628ad3;
+}
