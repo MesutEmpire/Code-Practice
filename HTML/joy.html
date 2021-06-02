@@ -58,66 +58,72 @@
 <!-- scenario 2: set background image to a main div-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Joy</title>
-    <style>
-      .bdy {
-        background-image: url("images/bg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: overlay;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-      }
-      .name {
-        color: white;
-      }
-      .content {
-        position: absolute;
-        top: 50%;
-        left: 5%;
-        -ms-transform: translate(5%, -50%);
-        transform: translate(5%, -50%);
 
-        /* To center at the middle of the page */
-        /* top: 50%;
+<head>
+  <title>Joy</title>
+  <style>
+    .bdy {
+      background-image: url("images/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: overlay;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .name {
+      color: rgb(255, 255, 255);
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      -ms-transform: translate(5%, -50%);
+      transform: translate(5%, -50%);
+
+      /* To center at the middle of the page */
+      /* top: 50%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); */
-      }
-      .btn {
-        height: 40px;
-        width: 100px;
-        background-color: transparent;
-        color: white;
-        border-radius: 10px;
-        border-color: white;
-      }
+    }
 
-      .btn:hover {
-        color: #22628ad3;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="bdy">
-      <div class="topnav">
-        <a class="active btn" href="#home">Home</a>
-        <a class="btn" href="#news">News</a>
-        <a class="btn" href="#contact">Contact</a>
-        <a class="btn" href="#about">About</a>
-      </div>
-      <div class="content">
-        <h1 class="name">Hi, I'm Chris.</h1>
-        <p class="name">I'm a multidisciplinary designer in Manchester</p>
-        <button class="btn">Visit Website</button>
-        <button class="btn">Get in Touch</button>
-      </div>
+    .btn {
+      height: 40px;
+      width: 100px;
+      background-color: transparent;
+      color: white;
+      border-radius: 10px;
+      border-color: white;
+    }
+
+    .btn:hover {
+      color: #22628ad3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bdy">
+    <div class="topnav">
+      <a class="active btn" href="#home">Home</a>
+      <a class="btn" href="#news">News</a>
+      <a class="btn" href="#contact">Contact</a>
+      <a class="btn" href="#about">About</a>
     </div>
-  </body>
+    <div class="content">
+      <h1 class="name">Hi, I'm Chris.</h1>
+      <p class="name">I'm a multidisciplinary designer in Manchester</p>
+      <button class="btn">Visit Website</button>
+      <button class="btn">Get in Touch</button>
+    </div>
+  </div>
+</body>
+
 </html>
 
 <!-- Different positions:  absolute, fixed, relative -->

@@ -53,3 +53,11 @@ body {
   -ms-transform: translateX(50%);
   transform: translateX(50%);
 }
+.signin {
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  -ms-transform: translate(5%, 95%);
+  transform: translate(5%, 95%);
+  background-color: rgb(159, 159, 170);
+}
